@@ -9,3 +9,15 @@
   font-weight: 500;
   margin-left: 50px;
 }
+
+.list .wrapper .container {
+  margin-left: 50px;
+  display: flex;
+  width: max-content;
+}
+
+.list .wrapper .sliderArrow {
+  margin-left: 50px;
+  display: flex;
+  width: max-content;
+}

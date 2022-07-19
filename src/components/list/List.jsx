@@ -2,7 +2,7 @@ import {
   ArrowBackIosOutlined,
   ArrowForwardIosOutlined,
 } from "@material-ui/icons";
-import ListItem from "../listitem/ListItem";
+import ListItem from "../listItem/ListItem";
 import "./list.css";
 
 export default function List() {
@@ -10,7 +10,7 @@ export default function List() {
     <div className="list">
       <span className="listTitle">Continue to watch</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined />
+        <ArrowBackIosOutlined className="sliderArrow left" />
         <div className="container">
           <ListItem />
           <ListItem />
@@ -19,8 +19,21 @@ export default function List() {
           <ListItem />
           <ListItem />
           <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
         </div>
-        <ArrowForwardIosOutlined />
+        <ArrowForwardIosOutlined className="sliderArrow right" />
       </div>
     </div>
   );
